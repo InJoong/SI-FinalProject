@@ -1,10 +1,7 @@
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.models import load_model
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from tensorflow.python.keras.layers.core import Dropout
 
 df_train = pd.read_csv('./dataset/sign_mnist_train/sign_mnist_train.csv')
 df_test = pd.read_csv('./dataset/sign_mnist_test/sign_mnist_test.csv')
